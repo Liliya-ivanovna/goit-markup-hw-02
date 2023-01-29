@@ -45,7 +45,85 @@ line-height: 1,5;
 letter-spacing: 0.02em;
 color: #434455;
 }
--------------/* Main */-------------
+-------------/* Main1 */-----------
+.h1-solutions{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1,07;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.button-style{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.features-header{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+}
+.features-list{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+.our-work-header{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.team-header{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+}
+.team-header{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+}
+.speciality{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+-------------/* Main2 */-------------
 
 .body{
 font-family: Roboto, sans-serif;

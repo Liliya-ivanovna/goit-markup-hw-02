@@ -9,7 +9,7 @@ font-size: 16px;
     font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
-line-height: 24px;
+line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
@@ -19,14 +19,6 @@ text-decoration: none;
 
 }
 .accent{
-    font-family: 'Raleway';
-font-weight: 800;
-font-size: 18px;
-line-height: 24px;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
 color: #4D5AE5;
 }
 .menu-list{
@@ -36,6 +28,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 text-decoration: none;
+}
+.menu-list:is(:hover,:focus){
+  color:  #2E2F42;uiu…
 }
 .list{ 
    list-style: none;
@@ -60,7 +55,10 @@ text-decoration: none;
 }
 -------------/* Main1 */-----------
  
- .h1-solutions{
+ .solutions{
+    background: #2E2F42;
+ }
+.h1-solutions{
 font-family: 'Roboto';
 font-weight: 700;
 font-size: 56px;
@@ -143,10 +141,7 @@ font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;}
-.filter-btn:hover{
-    color: #404BBF;;
-}
-.filter-btn:focus{
+.filter-btn:hoveris(:hover,:focus){
     color: #404BBF;
 }
 .buttons-item{

@@ -42,7 +42,6 @@ text-decoration: none;
 }
 .link-mail-post{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -52,7 +51,6 @@ text-decoration: none;
 }
 .phone-number{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -64,7 +62,6 @@ text-decoration: none;
  
  .h1-solutions{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -73,7 +70,6 @@ color: #FFFFFF;
 }
 .button-style{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -82,7 +78,6 @@ color: #FFFFFF;
 }
 .features-header{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -92,7 +87,6 @@ color: #2E2F42;
 }
 .features-list{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -102,7 +96,6 @@ color: #434455;
 }
 .our-work-header{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -111,7 +104,6 @@ color: #2E2F42;
 }
 .team-header{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -121,7 +113,6 @@ color: #2E2F42;
 }
 .team-header{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -131,7 +122,6 @@ color: #2E2F42;
 }
 .speciality{
     font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -150,7 +140,6 @@ font-size: 16px;
 .buttons-item1 {
 color: #FFFFFF;; 
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;}
@@ -163,7 +152,6 @@ line-height: 1.5;}
 .buttons-item{
 color: #4D5AE5;
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -171,7 +159,6 @@ line-height: 1.5;
 
 .image-name{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -180,7 +167,6 @@ color: #2E2F42;
 }
 .img-text{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -191,7 +177,6 @@ color: #434455;
 ---------/* Footer */---------------
 .footer-text{
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;

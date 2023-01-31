@@ -20,11 +20,21 @@ color: #2E2F42;
 text-decoration: none;
 
 }
-
-
 .accent{
 color: #4D5AE5;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .menu-list{
 font-weight: 500;
 font-size: 16px;
@@ -73,14 +83,15 @@ color: #FFFFFF;
 text-align: center;
 background: #2E2F42;
 }
-.button-style{
+.button-style:is(:hover,:focus){
     font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
+background: #4D5AE5;
 color: #FFFFFF;
-}
+    }
 .features-header{
 font-weight: 500;
 font-size: 20px;
@@ -133,20 +144,16 @@ font-size: 20px;
 line-height: 1.2;
 color: #2E2F42;
 }
-.buttons-item1 {
+.buttons-item1:is(:hover,:focus) {
     font-family: inherit;
     color: #FFFFFF;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 cursor: pointer;
+letter-spacing: 0.04em;
 }
-
-.filter-btn:is(:hover,:focus){
-    color: #404BBF;
-    
-}
-.buttons-item{
+.buttons-item:is(:hover,:focus){
     font-family: inherit;
 color: #4D5AE5;
 font-weight: 500;
@@ -168,31 +175,24 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-
 }
 ---------/* Footer */---------------
-
-.logotype{
-    font-family:'Raleway',sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    color: #F4F4FD;
- }
  .accent2{
-    font-family: 'Raleway'sans-serif;
+color: #4D5AE5;
+ }
+ .logotype{
+   font-family: 'Raleway',sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
+display: flex;
+align-items: center;
 letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
 text-decoration: none;
-color: #4D5AE5;
  }
- .style-footer{
-    background: #2E2F42;
-}
+ 
 .footer-text{
 font-weight: 400;
 font-size: 16px;
@@ -200,3 +200,5 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 }
+.style-footer{
+    background: #2E2F42;}

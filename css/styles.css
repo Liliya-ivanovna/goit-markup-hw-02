@@ -22,7 +22,6 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.03em;
-text-transform: uppercase;
 color: var(--navy-blue-color);
 text-decoration: none;
 
@@ -72,8 +71,6 @@ letter-spacing: 0.02em;
 color: var(--slate-color);
 text-decoration: none;
 }
--------------/* Main1 */-----------
- 
  .solutions{
 width: 1440px;
 height: 600px;
@@ -82,6 +79,7 @@ top: 72px;
 background-color: var(--navy-blue-color);
  }
 .h1-solutions{ 
+    font-family: 'Roboto';
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -90,21 +88,18 @@ color: var(--body-background-color);
 text-align: center;
 }
 .button-style:is(:hover,:focus){
-    font-family: inherit;
-color: var(--ocean-color);
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 16px 32px;
-gap: 10px;
-width: 169px;
-height: 56px;
-left: 636px;
-top: 428px;
+    color: var(--ocean-color);
+}
+
+.b-text{   
+font-family: inherit;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--body-background-color);
 background: var(--iris-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-    }
+ }
+
 .features-header{
 font-weight: 500;
 font-size: 20px;
@@ -145,8 +140,6 @@ letter-spacing: 0.02em;
 color: var(--slate-color);
 }
 
--------------/* Main2 */-------------
-
 .body{
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
@@ -154,24 +147,31 @@ font-size: 20px;
 line-height: 1.2;
 color: var(--navy-blue-color);
 }
-.buttons-item1:is(:hover,:focus) {
-    font-family: inherit;
-    color: var(--ocean-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-cursor: pointer;
-letter-spacing: 0.04em;
+.buttons-item1:is(:hover,:focus){
+    background: var(--ocean-color); 
+    color: var(--body-background-color);   
 }
-.buttons-item:is(:hover,:focus){
+.buttons-style1{
     font-family: inherit;
-color: var(---ocean-color);
-font-weight: 500;
-font-size: 16px;
+    font-weight: 500;
+    font-size: 16px;
 line-height: 1.5;
 cursor: pointer;
+letter-spacing: 0.04em; 
 }
 
+.buttons-item:is(:hover,:focus){
+color: var(--cloud-color);
+}
+.buttons-style{
+    font-family: inherit;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+letter-spacing: 0.04em; 
+color: var(--iris-color);
+}
 .image-name{
 font-weight: 500;
 font-size: 20px;
@@ -185,7 +185,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate-color);
 }
----------/* Footer */---------------
  .accent2{
 color: var(--iris-color);
  }

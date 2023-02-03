@@ -55,17 +55,23 @@ text-decoration: none;
 .list{ 
    list-style: none;
 }
+.address{
+font-style: normal;
+}
+.link-mail-post:is(:hover,:focus){
+    color:  var(--ocean-color);}
 .link-mail-post{
-    font-family: 'Roboto',sans-serif;
+font-family: 'Roboto',sans-serif;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate-color);
 text-decoration: none;
 }
-.phone-number{
+.phone-number:is(:hover,:focus){
+    color:  var(--ocean-color);}
+    .phone-number{ 
 font-family: 'Roboto',sans-serif;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -73,14 +79,9 @@ color: var(--slate-color);
 text-decoration: none;
 }
  .solutions{
-width: 1440px;
-height: 600px;
-left: 0px;
-top: 72px;
 background-color: var(--navy-blue-color);
  }
 .h1-solutions{ 
-    font-family: 'Roboto';
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -89,11 +90,12 @@ color: var(--body-background-color);
 text-align: center;
 }
 .button-style:is(:hover,:focus){
-    color: var(--ocean-color);
+    background: var(--ocean-color);
 }
 
 .b-text{   
 font-family: inherit;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
@@ -126,8 +128,8 @@ color: var(--navy-blue-color);
     background: var(--cloud-color);
 }
 .team-header{
-font-weight: 700;
-font-size: 36px;
+font-weight: 500;
+font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue-color);
@@ -148,21 +150,10 @@ font-size: 20px;
 line-height: 1.2;
 color: var(--navy-blue-color);
 }
-.buttons-item1:is(:hover,:focus){
-    background: var(--ocean-color); 
-    color: var(--body-background-color);   
-}
-.buttons-style1{
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-line-height: 1.5;
-cursor: pointer;
-letter-spacing: 0.04em; 
-}
 
 .buttons-item:is(:hover,:focus){
-color: var(--cloud-color);
+background: var(--ocean-color);
+color: var(--body-background-color);
 }
 .buttons-style{
     font-family: inherit;
@@ -172,6 +163,7 @@ line-height: 1.5;
 cursor: pointer;
 letter-spacing: 0.04em; 
 color: var(--iris-color);
+background: var(--cloud-color);
 }
 .image-name{
 font-weight: 500;
@@ -194,8 +186,6 @@ color: var(--iris-color);
 font-weight: 800;
 font-size: 18px;
 line-height: 1.16;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--cloud-color);
